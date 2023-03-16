@@ -79,7 +79,7 @@ html {
     align-items: center;
 }
 
-.advantages__header {
+.advantages__header, .summary__header {
     font-size: 2rem;
     font-weight: 100;
 }
@@ -116,4 +116,30 @@ html {
     text-align: center;
 }
 
+.features__summary {
+    margin-top: 150px;
+    padding: 0 2rem;
+}
+
+.summary__txt {
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.summary__button {
+    padding: 1rem 2rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    background-color: #0181F5;
+    border: none;
+}
+
+.summary__img {
+    width: 100%;
+    margin: 2rem auto;
+}
 /* END OF FEATURES */
