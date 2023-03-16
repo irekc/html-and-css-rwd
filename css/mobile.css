@@ -69,3 +69,51 @@ html {
 }
 
 /* END OF HERO */
+
+/* FEATURES */
+
+.features__advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.advantages__header {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.advantages__item {
+    max-width: 300px;
+}
+
+.advantages__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 2.5rem auto;
+}
+
+.advantages__icon--first {
+    background-color: #1189F6;
+}
+
+.advantages__icon--second {
+    background-color: #FDA75C;
+}
+
+.advantages__icon--third {
+    background-color: #37EF8D;
+}
+
+.advantages__description {
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* END OF FEATURES */
