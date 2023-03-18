@@ -79,7 +79,7 @@ html {
     align-items: center;
 }
 
-.advantages__header, .summary__header {
+.advantages__header, .features__summary-header {
     font-size: 2rem;
     font-weight: 300;
     padding: 1rem;
@@ -122,13 +122,13 @@ html {
     padding: 0 2rem;
 }
 
-.summary__txt {
+.features__summary-txt {
     margin: 2rem auto;
     font-size: 1.1rem;
     font-weight: 300;
 }
 
-.summary__button {
+.features__summary-button {
     padding: 1rem 2rem;
     color: #ffffff;
     font-size: 1.2rem;
@@ -139,7 +139,7 @@ html {
     border: none;
 }
 
-.summary__img {
+.features__summary-img {
     width: 100%;
     margin: 2rem auto;
 }
@@ -256,3 +256,125 @@ html {
 }
 
 /* END OF PRICING */
+
+/* SUMMARY */
+
+.summary {
+    height: 400px;
+    background-color: #5DB2FF;
+}
+
+.summary__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.summary__txt {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.summary__download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.download__app-stores, .download__google-play {
+    margin: 0.5rem;
+}
+
+/* END OF SUMMARY */
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F1F1F;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-top: 4rem;
+}
+
+.footer__option-logo {
+    width: 120px;
+}
+
+.footer--logo {
+    height: 100%;
+    width: 100%;
+}
+
+.footer__option-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+
+.footer__option-social-list {
+    display: flex;
+}
+
+.footer a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.option-social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    
+}
+
+.option-social-item>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__options-item {
+    margin-bottom: 2rem;
+}
+
+.footer__option-header {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.footer__option-link  a{
+    padding: 1rem 0;
+}
+
+.play-store--footer, .app-store--footer {
+    display: none;
+}
+
+.copyright__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 150px;
+    text-align: center;
+}
+
+.copyright__container .colorlib__link {
+    color: #4594D1;
+}
+
+/* END OF FOOTER */
