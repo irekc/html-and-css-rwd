@@ -45,7 +45,7 @@ html {
 
 .hero__header {
     font-size: 2.4rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .hero__txt {
@@ -81,7 +81,7 @@ html {
 
 .advantages__header, .summary__header {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 300;
     padding: 1rem;
 }
 
@@ -113,7 +113,7 @@ html {
 
 .advantages__description {
     font-size: 1.8rem;
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ html {
 .summary__txt {
     margin: 2rem auto;
     font-size: 1.1rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .summary__button {
@@ -206,6 +206,53 @@ html {
     font-size: 1.5rem;
 }
 
-
-
 /* END OF COMMENTS */
+
+/* PRICING */
+
+.pricing__header {
+    height: 200px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.pricing__title {
+    font-size: 2.2rem;
+    font-weight: 300;
+    padding: 1.5rem;
+}
+
+.option__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    height: 100px;
+    background-color: #E9F4FE;
+}
+
+.option__header-txt, .option__price {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.option__price {
+    color: #0381F5;
+}
+
+.option__atributes--list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    font-size: 1.2rem;
+}
+
+.option__button {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 6px;
+}
+
+/* END OF PRICING */
