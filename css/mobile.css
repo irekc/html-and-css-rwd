@@ -300,8 +300,11 @@ html {
 .footer {
     background-color: #1F1F1F;
     color: #ffffff;
-    padding-left: 1rem;
     padding-top: 4rem;
+}
+
+.footer__options-list {
+    padding-left: 1rem;
 }
 
 .footer__option-logo {
