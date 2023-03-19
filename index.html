@@ -52,7 +52,7 @@
 <body>
 
     <header class="header row">
-        <div class="header__container container">
+        <div class="header__container">
             <div class="header__logo">
                 <img
                     src="./images/logo.png"
@@ -227,12 +227,14 @@
         </article>
 
         <article class="features__summary container">
-            <h2 class="features__summary-header">Features that give you real feel</h2>
-            <p class="features__summary-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sit suscipit
-                labore
-                commodi ullam molestias distinctio vero non quibusdam, laboriosam sequi adipisci voluptas dignissimos,
-                dolores id ipsam sint quam! Vero!</p>
-            <button class="features__summary-button">Download Now</button>
+            <div class="features__summary-article">
+                <h2 class="features__summary-header">Features that give you real feel</h2>
+                <p class="features__summary-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sit suscipit
+                    labore
+                    commodi ullam molestias distinctio vero non quibusdam, laboriosam sequi adipisci voluptas dignissimos,
+                    dolores id ipsam sint quam! Vero!</p>
+                <button class="features__summary-button">Download Now</button>
+            </div>
             <picture class="features__summary-picture">
                 <img
                     src="./images/draw.png"
@@ -245,14 +247,14 @@
     </section>
 
     <section class="comments row">
-        <div class="comments__img-container">
+        <div class="comments__img-container container">
             <img
                 class="comments__img"
                 src="./images/banner/testmonial.png"
                 alt=""
             >
         </div>
-        <div class="comments__container">
+        <div class="comments__container container">
             <header class="comments__header">
                 <h1 class="comments__header--text">Review from our regular users</h1>
             </header>
@@ -283,7 +285,7 @@
             </header>
 
             <article class="pricing__options-list">
-                <ul class="pricing__option">
+                <ul class="pricing__option pricing__option--basic">
                     <li class="option">
                         <header class="option__header">
                             <h5 class="option__basic option__header-txt">Basic</h5>
@@ -298,7 +300,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="pricing__option">
+                <ul class="pricing__option pricing__option--team">
                     <li class="option">
                         <header class="option__header">
                             <h5 class="option__team option__header-txt">Team</h5>
@@ -314,7 +316,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="pricing__option">
+                <ul class="pricing__option pricing__option--bussines">
                     <li class="option">
                         <header class="option__header">
                             <h5 class="option__bussines option__header-txt">Bussines</h5>
@@ -335,7 +337,7 @@
     </section>
 
     <section class="summary row">
-        <div class="summary__container container">
+        <div class="summary__container">
             <header class="summary__header">
                 <h2 class="summary__txt">Get start from now <br> and increase productivity</h2>
             </header>
@@ -899,7 +901,7 @@
             </ul>
         </div>
 
-        <div class="copyright__container container">
+        <div class="copyright__container">
             <p class="copyright__text">Copyright &copy2020 All rights reserved|This template is made with &#9825 by <a
                     href=""
                     class="colorlib__link"

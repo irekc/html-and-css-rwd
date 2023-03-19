@@ -4,8 +4,11 @@ html {
 
 /* HEADER */
 
-.header__container {
+.header {
     background-color: #2C2C2C;
+}
+
+.header__container {
     color: #ffffff;
     height: 70px;
     display: flex;
@@ -31,7 +34,8 @@ html {
 
 /* HERO */
 
-.hero__container {
+
+.hero {
     background-image: url(./../images/banner/banner.png);
     background-size: cover;
     background-position: bottom;
@@ -364,7 +368,7 @@ html {
     display: none;
 }
 
-.copyright__container {
+.copyright__container {  
     display: flex;
     justify-content: center;
     align-items: center;
