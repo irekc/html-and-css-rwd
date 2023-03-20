@@ -1,0 +1,96 @@
+/* HEADER */
+
+.header__container {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 2rem;
+    
+}
+
+.header__nav {
+    display: block;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+}
+
+.nav__link:hover {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+.nav__chevron {
+    font-size: 0.8rem;
+}
+
+.header__button {
+    display: block;
+    color: #ffffff;
+    background-color: rgba(256, 256, 256, 0.1);
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.header__hamburger {
+    display: none;
+}
+
+.header__button:hover {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+/* END OF HEADER */
+
+/* HERO */
+
+.container {
+    max-width: 1100px;
+}
+
+/* END OF HERO */
+
+/* FEATURES */
+
+.advantages__header {
+    font-size: 3rem;
+    max-width: 50%;
+}
+
+/* END OF FEATURES */
+
+/* PRICING */
+
+.pricing__title {
+    font-size: 3rem;
+}
+
+/* END OF PRICING */
+
+/* SUMMARY */
+
+.summary__container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summary__txt {
+    font-size: 3rem;
+    text-align: start;
+}
+
+/* END OF SUMMARY */
+
+/* FOOTER */
+
+.footer__options-list {
+    grid-template-areas: "option-A option-A option-B option-C option-D ";
+    column-gap: 3rem;
+}   
+
+/* END OF FOOTER */

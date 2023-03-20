@@ -23,8 +23,8 @@
 }
 
 .advantages__list {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .features__summary {
@@ -80,6 +80,18 @@
     font-size: 1.2rem;
 }
 
+.option__price--team {
+    color: #FDBD74;
+}
+
+.option__price--bussines {
+    color: #22D364;
+}
+
+.option__button:hover {
+    background-color: #E0E0E0;
+}
+
 /* END OF PRICING */
 
 /* FOOTER */
@@ -96,6 +108,5 @@
     height: 100px;
     width: 100%;
 }
-
 
 /* END OF FOOTER */

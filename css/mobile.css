@@ -4,11 +4,8 @@ html {
 
 /* HEADER */
 
-.header {
-    background-color: #2C2C2C;
-}
-
 .header__container {
+    background-color: #2C2C2C;
     color: #ffffff;
     height: 70px;
     display: flex;
@@ -35,7 +32,7 @@ html {
 /* HERO */
 
 
-.hero {
+.header {
     background-image: url(./../images/banner/banner.png);
     background-size: cover;
     background-position: bottom;
@@ -365,10 +362,6 @@ html {
 
 .footer__option-link  a{
     padding: 1rem 0;
-}
-
-.play-store--footer, .app-store--footer {
-    display: none;
 }
 
 .copyright__container {  
